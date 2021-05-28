@@ -1,0 +1,269 @@
+body {
+    background-color: lightgrey;  
+     color: black; margin: 0px auto; border-top: 1px solid white;}
+div.wrapper {width: 90%; margin: 0px auto 30px auto; 
+ }
+ div.grey {background-color: white; width: 100%; height: 900px;}
+header {position: fixed; margin-top: 100px;
+     height: 150px; width: 100%; margin: 0 auto;
+margin-bottom: 200px; z-index: 2; background-color: white;}
+img.top {width: 80px; height: 85px; float: left; margin-left: 50px;}
+nav {clear: both; height: 80px; 
+}
+li.secondalj {color: orange; font-stretch: extra-expanded; font-size: 24px;
+font-weight: bolder;  }
+li.news {margin-left: 30px; margin-right: 40px;}
+nav ul {margin-left: 8px; padding: 5px; width: 72%; float: left;
+   margin-right: 5px; height: 35px; 
+margin-top: 40px; margin-bottom: 0px;} 
+nav li {display: inline; font-size: 20px; margin-right: 30px; 
+font-family: sans-serif; font-weight: bolder;
+font-stretch: condensed; }
+nav ul li.more {margin-right: 3px;}   
+nav li a {color: black; text-decoration: none;}
+nav li a:hover {color: orange;
+}
+ div.Live, div.Search {float: right; margin-top: 50px; margin-right: 25px; 
+    margin-left: 25px;  
+ }
+div.Search { margin-left: 10px;}
+div#brake {height: 60px; width: 100%; background-color: red; }
+div#brake {font-size: 18px; margin-top: 0px; float: left; line-height: 10px;
+    font-family: sans-serif; font-stretch: extra-condensed; }
+article.one {width: 100%;  margin-top: 100px;
+    float: left; height: 800px; }
+div#BreakingNews {width: 47%; height: 800px; 
+float: left; margin-top: 60px; margin-right: 35px;}
+img.breakingNews {width: 525px; height: 380px; 
+border: 2px solid black;}
+div#BreakingNews a {font-size: 30px; font-weight: bold; color: black;
+font-family: sans-serif; text-decoration: none;}
+div#BreakingNews a:hover {text-decoration: underline;}
+div p.breakingNews {color: black; font-size: 15px; font-family: sans-serif; }
+div p.breakingNews2 {color: black; font-size: 15px; font-family: sans-serif;}
+div p.breakingNews3 {color: black; font-size: 14px; 
+    line-height: 0px; font-family: sans-serif;
+line-height: 25px; margin-top: 0px; }
+div#BreakingAside {width: 50%; height: 800px; 
+float: right; margin-top: 60px;}
+div.upaside {width:100%; float: left; margin-top: 20px; margin-bottom: 30px;
+    height: 150px;}
+div img.breakAside {width: 300px; height: 170px; float: left; 
+    vertical-align: text-top; margin-right: 10px; }
+div.upaside a {width: 290px; float: right; vertical-align: text-top;
+margin-top: 0px; margin-left: 0px; height: 0px;
+font-size: 23px; font-weight: bold; color: black;
+font-family: sans-serif; text-decoration: none; line-height: 25px;}
+div.upaside a:hover {text-decoration: underline;}
+div p.asid {color: black; font-size: 18px; font-family: sans-serif;
+margin: 95px 0 0 20; line-height: 18px;}
+div img.breakDown {width: 130px; height: 100px; 
+float: left; vertical-align: middle;}
+div p.one {width: 150px; height: 110px; margin-left: 10px;
+float: left; margin-top: 0px; font-size: 14px; font-weight: bold; font-family: sans-serif;}
+div.un {width: 48%; height: 120px; margin: 5px 2px 5px 0; 
+    float: left;}
+
+div.deux {width: 48%; height: 120px; margin: 5px 2px 5px 0; 
+    float: left;}
+
+div.trois {width: 48%; height: 120px; margin: 5px 0 2px 0; 
+      float: right;}
+
+div.quatre {width: 48%; height: 120px; margin: 5px 2px 5px 0; 
+           float: left;}
+
+div.cinq {width: 48%; height: 120px; margin: 5px 0 2px 0; 
+               float: right;}
+
+ div.xix {width: 48%; height: 120px; margin: 5px 2px 5px 0; 
+                  float: left;}
+
+div.huit {width: 48%; height: 120px; margin: 5px 0 5px 0; 
+                        float: right;}
+
+div.neuf {width: 48%; height: 120px; margin: 5px 0px 5px 0; 
+                             float: left;}
+
+div.firstdiv a, div.seconddiv a {font-size: 14px; line-height: 20px; font-weight:  bold;
+font-family: sans-serif; text-decoration: none; color: black;}
+div.firstdiv  a:hover, div.seconddiv a:hover {text-decoration: underline;}
+div.Advertisement {width: 100%; height: 160px; float: left; 
+background-color: lightgrey; margin-top: 0px;}
+div.Advertisement img {width: 60%; height: 100px; margin-top: 30px; margin-left: 300px;}
+div p.Advert0 {font-size: 20px; font-weight: bold; 
+text-align: center; margin-top: 50px; color: grey;}
+article.two {width: 100%; background-color: lightgrey; margin-top: 0px;
+    float: left; height: 11100px;}
+div.act2rows {width: 65%; height: 0px; float: left; }
+div#lane1 {width: 65%; height: 2400px; float: left; 
+}
+div.lan1 {width: 100%; height: 220px; background-color: white; float: left;
+margin: 00px 0 20px 0; }
+
+
+
+
+
+div.lan12 {width: 100%; height: 660px; background-color: white; float: left;
+    margin: 10px 0 20px 0px; }
+
+p.twosec2 {color: black; font-size: 18px; font-family: sans-serif;
+    margin: 110 20px 0 15px; line-height: 25px; }
+    div img.article22 {width: 100%; height: 535px; 
+        float: left;}
+        div p.two2 {width: 100%; height: 30px; 
+        float: left; }
+       div p.two2 a {color: black; font-size: 26px; font-family: sans-serif; margin-right: 10px;
+        line-height: 35px; font-weight: bold; text-decoration: none; margin-left: 15px;}
+       div p.two2:hover {text-decoration: underline;}
+
+
+
+
+div img.article2 {width: 300px; height: 200px; 
+    float: right;}
+    div p.two {width: 450px; height: 65px; 
+    float: left; }
+   div p.two a {color: black; font-size: 26px; font-family: sans-serif;
+    line-height: 35px; font-weight: bold; text-decoration: none; margin-left: 15px; margin-right: 10px;}
+   div p.two:hover {text-decoration: underline;}
+div p.twosec {color: black; font-size: 18px; font-family: sans-serif;
+    margin: 110 20px 0 15px; line-height: 25px;}
+div.lane2 {width: 33%; height: 12000px; float: right; background-color: lightgrey;   
+}
+div.lan {width:  90%; height: 850px;  background-color: white;}
+p#onelan {margin-top: 0px; font-size: 24px; font-family: sans-serif;
+margin-left: 0px;}
+span.onelan {width: 12px; height: 12px; float: right; margin-top: 0px;
+    background-color: orange; margin-right: 215px; margin-top: 10px;}
+div.lan23 {width: 95%; height: 155px; 
+     margin-left: 10px;}
+     div img.threeDown {width: 100%; height: 150px; border: 2px solid black;
+        float: right;}
+        
+div p.three {border-bottom: 2px solid lightgrey; height: 60px; 
+}
+div p.three a {color: black; font-size: 15px; font-family: sans-serif;
+text-decoration: none; font-weight: bold; line-height: 20px; margin-left: 10px;} 
+div p.three a:hover {text-decoration: underline;}
+
+
+div p#firstlan2 {height: 100px; margin-top: 10px;}
+div.advertise {height: 9000px; 
+margin-top: 100px; text-align: center; width: 439px; margin-left: 0px;}
+div.ad {margin-top: 4000px; font-size: 20px; font-weight: bold; 
+    position: relative; color: grey;}
+ div.ado {margin-top: 1000px; font-size: 20px; font-weight: bold; 
+        position: relative;text-align: center; color: grey; }
+div.lane3 {width: 65%; height: 700px; float: left;   margin-top: 20px;}
+div.lane4 {width: 65%; height: 750px; float: left;  margin-top: 100px;}
+div.lane5 {width: 65%; height: 500px; float: left; background-color: white; margin-bottom: 50px;}
+div p.five {border-bottom: 2px solid black; height: 700px;}
+div.lane6 {width: 65%; height: 4800px; float: left; }
+div.lane7 {width: 65%; height: 700px; float: left; }
+div.lane8 {width: 65%; height: 950px; float: left;  margin-top: 100px;}
+div.lane9 {width: 65%; height: 800px; float:left;  margin-top: 100px;}
+div.lane10 {width: 65%; height: 4850px; float: left;  margin-top: 100px;}
+aside {width: 30.5%; height: 5000px; float: left; background-color: 
+lightgrey; margin-left: 20px;}
+footer {width: 100%; height: 500px; background-color: black; float: left;}
+div.foot1 {width: 16%; float:left; height: 500px; }
+div.foot2 {width: 16%; float:left; height: 500px; }
+div.foot3 {width: 16%; float:left; height: 500px; }
+div.foot4 {width: 16%; float: left; height: 500px; }
+div.foot5 {width: 33%; float: left; height: 500px; margin-left: 40px;}
+video {width: 100%; height: 500px;}
+div.vidlan {width: 100%; height: 250px; background-color: white; float: left;
+    margin: 10px 0 20px 0; }
+    div p.from {width: 100%; height: 15px; font-size: 18px; color: orange;
+        font-family: sans-serif; margin-left: 20px;}
+        div p.from span {color: black; font-family: sans-serif; font-size: 18px;}
+    div p.vidtwo {width: 100%; height: 30px; 
+        float: left; margin-left: 15px; margin-right: 15px; }
+       div p.vidtwo a {color: black; font-size: 28px; font-family: sans-serif;
+        line-height: 35px; font-weight: bold; text-decoration: none; }
+       div p.vidtwo:hover {text-decoration: underline;}
+    div p.vidsec {color: black; font-size: 21px; font-family: sans-serif;
+        margin: 0 15 0 15; line-height: 25px; height: 50px;}
+
+
+
+
+        div.Opinion {width:100%; float: left; margin: 40 0 0 20;
+            height: 50px; font-size: 24px; font-family: sans-serif; 
+            }
+         span.aside {width: 12px; height: 12px; float: right; margin-top: 0px;
+            background-color: orange; margin-right: 755px; margin-top: 10px;}
+         p.opinion {color: black; font-size: 18px; font-family: sans-serif;
+        margin: 0 0 0 0; line-height: 18px; 
+    width: 300px; height: 30px; float: right;}
+        div img.op {width: 65px; height: 65px; border-radius: 30px;
+        float: left; vertical-align: middle; 
+    margin-top: 20px; margin-left: 10px;}
+       
+        div.baako {width: 49%; height: 100px; margin: 0px 2px 0px 0; 
+            float: left; }
+        
+        div.mmienu {width: 49%; height: 100px; margin: 0px 2px 0px 0; 
+            float: right; }
+        
+        div.mmiensa {width: 49%; height: 100px; margin: 0px 2px 0px 0; 
+              float: left; }
+        
+        div.nnan {width: 49%; height: 100px; margin: 0px 2px 0px 0; 
+                   float: right; }
+        
+        div.nnum {width: 49%; height: 100px; margin: 0px 2px 0px 0; 
+                       float: left;}
+        
+         div.nsia {width: 49%; height: 100px; margin: 0px 2px 0px 0; 
+                          float: right; }
+    
+   
+
+div#opinion a {font-size: 18px; line-height: 20px; font-weight:  bold;
+     font-family: sans-serif; text-decoration: none; color: black; }
+div#opinion a:hover {text-decoration: underline;}
+ div#opinion p.one {width: 330px; height: 30px; margin-left: 10px;
+     float: right; margin-top: 20px;  
+     font-family: sans-serif; }
+
+
+div.socialmedia {width: 90%; height: 100px;}
+div.media { width: 15%; height: 50px; 
+margin-left: 10px; float: left;}
+div.media img {width: 40px; height: 40px; margin:5px 2px 0px 2psx; }
+div.media img.med {width: 60px; height: 60px; margin:5px 2px 0px 2psx;}
+div.aljazet {width: 90%; height: 190px;  
+margin-top: 20px; }
+img.aljazet {width: 350px; height: 150px; 
+    margin-left: 20px; margin-top: 30px; 
+}
+div.copy {width: 90%; height: 50px; 
+color: white; font-family: sans-serif; text-align: center; 
+margin-top: 20px;}
+footer  a {color: white; font-size: 14px; text-decoration: none;
+font-family: sans-serif; line-height: 40px; }
+
+ li.fot  {font-size: 22px; font-weight: bold; color: white; text-decoration: none;
+    font-family: sans-serif; line-height: 40px; margin-bottom: 20px; }
+
+ul li.last {font-size: 16px; font-weight: bold; color: white; text-decoration: none;
+    font-family: sans-serif; line-height: 40px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

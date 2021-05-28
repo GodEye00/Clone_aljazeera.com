@@ -1,0 +1,331 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>aljazeera.com</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="Aljazeera.css" />
+</head>
+<body>
+    <header>
+            <nav>
+        <div id="aljezeera" class="halj">
+                <img src="data:image/png;base64,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" id="Aljazeera" class="top">
+        </div>
+    <ul>
+            <li class="secondalj">ALJEZEERA</li>        
+        <li class="news" id="News"><a href="">News</a></li>
+        <li><a href="">US Elections</a></li>
+        <li><a href = "">Features</a></li>
+        <li><a href="">Economy</a></li>
+        <li><a href="">Opinion</a></li>
+        <li><a href="">Video</a></li>
+        <li class="more" id="More"><a href="">More</a></li>
+    </ul>   
+    <div class="Search"><form action=""><button><img src="" class="buttonImage">Search</button><input type="hidden" name="Search" value="search"/></form></div>
+    <div class="Live"><form action=""><button><img src="" class="buttonImage">Live</button><input type="hidden" name="Live" value="live"/></form></div>
+ 
+</nav>
+<div id="brake"><div id="breaking"><h1>BREAKING NEWS |</h1></div></div></header>
+<div class="grey">
+<div class="wrapper">
+<article class="one">
+    <div id="BreakingNews"><figure><img src="https://www.aljazeera.com/wp-content/uploads/2020/10/2020-10-14T195631Z_1828335079_RC2JIJ9HP0AM_RTRMADP_3_THAILAND-PROTESTS.jpg?resize=570%2C380"" alt="" class="breakingNews"><br /><figcaption><a href="">Thailand declares emergency, detains leaders, to curb protests</a></figcaption><figure>
+        <p class="breakingNews">Government action follows months of student-led street protests that saw royal motorcade heckled.</p>
+        <p class="breakingNews2">RELATED STORIES</p>
+        <p class="breakingNews3">Why are Thai students protesting against King Vajiralongkorn?
+                Are student protests in Thailand the tipping point for change?
+                In Pictures: Tensions high in Thailand as protests continue</p>
+    </div>
+        <div id="BreakingAside">
+            <div  class="upaside"><img src="https://www.aljazeera.com/wp-content/uploads/2020/10/2020-10-14T081228Z_2030638049_RC28IJ9GCFEV_RTRMADP_3_LEBANON-ISRAEL-TALKS.jpg?resize=270%2C180" class="breakAside"/><a href="" ><p class="aside">What’s in a photo? A lot for Lebanon as talks with Israel begin
+                    </a></p><p class="asid">Whether to take a commemorative photo is just one of the tricky protocol issues surrounding the maritime borders talks.</p></div>
+            <div id="flt">
+                <div class="firstdiv">
+                <div class="un"><img src="https://www.aljazeera.com/wp-content/uploads/2020/10/AP_20286642977720.jpg?resize=120%2C80" class="breakDown"/><p class="one"><a href="">Turkish people walk past a billboard in support of Azerbaijan in its war with Armenia </a></p></div>
+                <div class="deux"><img src="https://www.aljazeera.com/wp-content/uploads/2020/10/000_8T442N.jpg?resize=120%2C80" class="breakDown"/><p class="one"><a href="">
+                        ‘We have to act’: France’s Macron orders curfews to contain COVID</a></p></div>
+                <div class="trois"><img src="https://www.aljazeera.com/wp-content/uploads/2020/10/AP_20248677339492.jpg?resize=120%2C80" class="breakDown"/><p class="one"><a href="">
+                        Trump’s son Barron tested positive for COVID-19, reveals Melania</a></p></div>
+                <div class="quatre"><img src="https://www.aljazeera.com/wp-content/uploads/2020/10/000_8PM3MX.jpg?resize=120%2C80" class="breakDown"/><p class="one"><a href="">Tanzania opposition agrees to collaborate. Will it pay off?
+                    </a></p></div>
+            </div>
+            <div class="seconddiv">
+                <div class="cinq"><img src="https://www.aljazeera.com/wp-content/uploads/2020/10/AP_20148026009864.jpg?resize=120%2C80" class="breakDown"/><p class="one"><a href="">White woman charged in racist NYC run-in made a second 911 call</a></p></div>
+                    <div class="xix"><img src="https://www.aljazeera.com/wp-content/uploads/2020/01/c39724d665724e14ad20fb53c71e37b9_18.jpeg?resize=120%2C80" class="breakDown"/><p class="one"><a href="">Guatemala to verify report on US agents ‘unauthorised’ operation
+                        </a></p></div>
+                        <div class="huit"><img src="https://www.aljazeera.com/wp-content/uploads/2020/10/063_GYI0064601018.jpg?resize=120%2C80" class="breakDown"/><p class="one"><a href="">Pakistan NSA says ready to talk to India if Kashmiris included</a></p></div>
+                            <div class="neuf"><img src="https://www.aljazeera.com/wp-content/uploads/2020/10/AJE-WEBPHOTOS-ABUJA-NIGERIA-15.jpg?resize=570%2C380" class="breakDown"/><p class="one"><a href="">'We need to live': Young Nigerians on why they are protesting</a></p></div>
+            </div>
+            </div>
+            </div>
+                   
+</article>
+</div>
+</div> 
+<div id="Brk" class="Advertisement"><img src="https://tpc.googlesyndication.com/simgad/15551603608548885641"/><div><p class="Advert"></p></div></div>
+<div class="wrapper">
+<article class="two">
+    <div id="lane1">
+            <div class="lan1"><img src="https://www.aljazeera.com/wp-content/uploads/2013/04/201342814322293734_20.jpeg?resize=570%2C380" class="article2"/><p class="two"><a href="">Convoy attack kills 14 in southwestern Pakistan
+                   </a></p><p class="twosec"> The attack occurred about 250km (155 miles) west of Pakistan’s main city of Karachi on Thursday.</p></div>
+            <div class="lan1"><img src="https://www.aljazeera.com/wp-content/uploads/2020/05/d98a92539493486f92a54e995951aa4d_8.jpeg?resize=570%2C380" class="article2"/><p class="two"><a href="">Syria-Russia alliance targeted civilians in Idlib: HRW report
+                  </a></p><p class="twosec">  The watchdog says the targeting of civilians by the Syria-Russia alliance may amount to crimes against humanity.</p></div>
+            <div class="lan1"><img src="https://www.aljazeera.com/wp-content/uploads/2020/10/AP_091111072814.jpg?resize=570%2C380" class="article2"/><p class="two"><a href="">Australia police drop probe into Afghan ‘war crimes’ reporting
+                    </a></p><p class="twosec">The decision came after ABC alleged Australian troops had killed unarmed men and children in Afghanista</p></div>
+            <div class="lan1"><img src="https://www.aljazeera.com/wp-content/uploads/2020/10/2020-10-15T082051Z_1906993874_RC2WIJ97RCX9_RTRMADP_3_KYRGYZSTAN-PROTESTS.jpg?resize=570%2C380" class="article2"/><p class="two"><a href="">Sooronbay Jeenbekov: Kyrgyzstan president announces resignation
+                   </a></p><p class="twosec"> Jeenbekov has faced calls to step down from protesters and political opponents amid unrest following a disputed vote.</p></div>
+                   <div class="lan1"><img src="https://www.aljazeera.com/wp-content/uploads/2020/10/2020-03-23T000000Z_1041004681_RC2SPF98UYNI_RTRMADP_3_HEALTH-CORONAVIRUS-SWEDEN.jpg?resize=570%2C380" class="article2"/><p class="two"><a href="">Citing Russia, Sweden mulls massive boost in defence spending
+                    </a></p><p class="twosec">  Sweden’s left-leaning government proposes biggest increase in defence spending in 70 years.</p></div>
+              <div class="lan1"><img src="https://www.aljazeera.com/wp-content/uploads/2020/10/AP_20287714279127.jpg?resize=570%2C380" class="article2"/><p class="two"><a href="">Kamala Harris’s staffer tests positive for COVID-19
+                      </a></p><p class="twosec">Harris had no contact with the staffer, but is postponing her in-person campaign schedule until Monday.</p></div>     
+
+                      <div class="lan1"><img src="https://www.aljazeera.com/wp-content/uploads/2020/10/2020-03-19T160110Z_1645970562_RC24NF9KAMUF_RTRMADP_3_HEALTH-CORONAVIRUS-QATAR.jpg?resize=270%2C180" class="article2"/><p class="two"><a href="">Qatar’s economy shrank 6.1 percent in Q2 – worst in eight years
+                        </a></p><p class="twosec">Qatar’s second-quarter GDP fell 6.1 percent in the three months ending June on an annual basis as pandemic hit economy.</p></div>
+                <div class="lan1"><img src="https://www.aljazeera.com/wp-content/uploads/2020/05/d98a92539493486f92a54e995951aa4d_8.jpeg?resize=570%2C380" class="article2"/><p class="two"><a href="">Syria-Russia alliance targeted civilians in Idlib: HRW report
+                       </a></p><p class="twosec"> The watchdog says the targeting of civilians by the Syria-Russia alliance may amount to crimes...</p></div>
+                <div class="lan1"><img src="https://www.aljazeera.com/wp-content/uploads/2020/10/2020-10-15T092038Z_706143960_RC2XIJ9KDOHX_RTRMADP_3_YEMEN-SECURITY-PRISONERS.jpg?resize=570%2C380" class="article2"/><p class="two"><a href="">Yemen: Over 1,000 prisoners to be freed in large-scale swap deal
+                       </a></p><p class="twosec"> The warring sides in Yemen will exchange some 1,081 prisoners on Thursday and Friday, under a deal...</p></div>
+                <div class="lan1"><img src="https://www.aljazeera.com/wp-content/uploads/2020/09/AP_20271694651907.jpg?resize=270%2C180" class="article2"/><p class="two"><a href="">East Med crisis: Erdogan ramps up rhetoric against Greece, Cyprus
+                        </a></p><p class="twosec">Turkish leader says countries will get ‘response they deserve’ amid growing anger over Ankara’s new research mission.</p></div>
+
+    </div>
+    <div class="lane2">
+        <div class="lan">
+            <p id="onelan" class="three">MOST READ<span class="onelan"></span></p>
+            <p  class="three"><a href="">Convoy attack kills 15 in southwestern Pakistan</a></p>
+            <p  class="three"><a href="">Nagorno-karabakh</a></p>
+            <p  class="three"><a href="">Hours after truce agreed, children became orphans in Azerbaijan</a></p>
+            <p  class="three"><a href="">Cypriot parliament speaker quits after passport scheme scandal</a></p>
+           <p  class="three"><a href="">Democrats urge early, heavy turnout as Trump strokes voting fears</a></p>
+            <p  class="three"><a href="">Spain extradites former banker sentenced in Iran for corruption</p>
+            <p  class="three"><a href="">Twitter restricts Trump campaign: US election live news</a></p>
+            <p  class="three"><a href="">Tanzania opposition agrees to collaborate. Will it pay off?</a></p>
+            <p  class="three"><a href="">Poor Indian women 'learn to ignore' sex abuse at work: Watchdog</a></p>
+            <p  class="three"><a href="">Russia withdraws from MH17 talks with Netherlands and Autrialia</a></p> 
+    <div class="lan23"><img src="https://www.aljazeera.com/wp-content/uploads/2020/09/2fea5f58f49540909c84c93a32c14eb7_6.png" class="threeDown"/></div>
+        <div class="advertise"><div class="ad"> Advertisement</div></div>
+        </div>
+    </div>
+        <div class="act2"></div>
+    <div id = "video1" class="lane3">
+        <video src="" poster="https://www.aljazeera.com/wp-content/uploads/2020/10/000_Nic324688.jpg?resize=730%2C410" preload="auto" controls loop ></video>
+       
+        <div class="vidlan"><p class="from"><span>From: </span>Al Jazeera World
+    </p><p class="vidtwo"><a href="">  Rim Banna: The voice of Palestine</a></p><p class="vidsec">   The dramatic life of outspoken Palestinian singer and musician, Rim Banna – her talent, struggle and untimely death.</p></div>
+
+    </div>
+    <div class="lane4">
+            <div class="lan1"><img src="https://www.aljazeera.com/wp-content/uploads/2020/10/2020-10-14T115452Z_2141477120_RC2BIJ9321XU_RTRMADP_3_UGANDA-POLITICS.jpg?resize=570%2C380" class="article2"/><p class="two"><a href="">Uganda: Bobi Wine arrested during office raid</a></p><p class="twosec">Lawyer of pop star-turned politician decries ‘despicable attack on democracy by the partisan police and the army’.</p></div>
+            <div class="lan1"><img src="https://www.aljazeera.com/wp-content/uploads/2020/10/IMG_5058.jpg?resize=570%2C380" class="article2"/><p class="two"><a href="">Cyprus: Anti-corruption protests after Al Jazeera passport expose
+                   </a></p><p class="twosec"> The protests followed repeated calls for Cyprus’s second in command Demetris Syllouris to step down.</p></div>
+            <div class="lan1"><img src="https://www.aljazeera.com/wp-content/uploads/2020/10/IMFchief.jpg?resize=570%2C380" class="article2"/><p class="two"><a href="">G20 agrees to additional 6-month debt suspension for poor nations
+                   </a></p><p class="twosec"> The move could help poor countries as they battle the coronavirus pandemic and deal with its economic fallout.</p></div>
+        </div>
+
+
+
+        <div class="lane5">
+                <div  class="Opinion">OPINION<span class="aside"></span></div>                       
+            <div id="opinion">
+                    <div class="baako"><img src="https://www.aljazeera.com/wp-content/uploads/2020/10/christo.png?resize=96%2C96" class="op"/><p class="one"><a href="">Cyprus and others must eliminate the passport black market
+                            </a></p><p class="opinion">"Christophoros Christophorou 15 Oct 2020"</p></div>
+                    <div class="mmienu"><img src="https://www.aljazeera.com/wp-content/uploads/2019/05/94d41c57ceaf46b588fd368d775987af_6.jpeg?resize=96%2C96" class="op"/><p class="one"><a href="">This is what it is like to travel as a stateless person
+                      </a></p><p class="opinion">"Abraham T Zere 14 Oct 2020"</p></div>
+                <div class="mmiensa"><img src="https://www.aljazeera.com/wp-content/uploads/2020/10/pikpaauthor.jpg?resize=96%2C96" class="op"/><p class="one"><a href=""> Do not close Pikpa down, replicate it
+                     </a></p><p class="opinion">"Efi Latsoudi 13 Oct 2020"</p></div>
+                <div class="nnan"><img src="https://www.aljazeera.com/wp-content/uploads/2020/04/29695a21be634f729170360d780e63ba_6.jpeg?resize=96%2C96" class="op"/><p class="one"><a href="">The left’s belated, and bittersweet, victory on climate change
+                    </a></p><p class="opinion">" Samuel Earl 15 Oct 2020"</p></div>
+                <div class="nnum"><img src="https://www.aljazeera.com/wp-content/uploads/2017/06/8790a5d51fa744dc9d795ef6ad2f4216_6.jpeg?resize=96%2C96" class="op"/><p class="one"><a href="">Is the normalisation deal really a win for Israel? 
+                </a></p><p class="opinion">" Adnan Abu Amer 14 Oct 2020"</p></div>
+                    <div class="nsia"><img src="https://www.aljazeera.com/wp-content/uploads/2019/10/4eda5950a22f4aa193a4c3eb8ad66a9c_6.jpeg?resize=96%2C96" class="op"/><p class="one"><a href="">Joe Biden’s America is a dangerous myth
+                        </a></p><p class="opinion">"Tafi Mhaka 13 Oct 2020"</p></div>
+            </div>     
+    </div>
+        <div class="lane6">
+
+                <div class="lan1"><img src="https://www.aljazeera.com/wp-content/uploads/2020/10/h_56418636.jpg?resize=570%2C380" class="article2"/><p class="two"><a href="">Indian cinemas reopen amid fewest coronavirus deaths in 11 weeks
+                    </a></p><p class="twosec">After seven-month blackout, theatres to reopen on the day India sees lowest single-day deaths in almost three months.</p></div>
+            <div class="lan1"><img src="https://www.aljazeera.com/wp-content/uploads/2020/10/2020-10-15T013822Z_692957600_RC2NIJ9C524U_RTRMADP_3_THAILAND-PROTESTS.jpg?resize=570%2C380" class="article2"/><p class="two"><a href="">Thailand bans mass gatherings under emergency decree
+                    </a></p><p class="twosec">Government action follows months of student-led street protests that saw royal motorcade heckled.</p></div>
+            <div class="lan1"><img src="https://www.aljazeera.com/wp-content/uploads/2020/10/AP_20248677339492.jpg?resize=570%2C380" class="article2"/><p class="two"><a href="">Trump’s son Barron tested positive for COVID-19, reveals Melania
+                    </a></p><p class="twosec">First lady says 14-year-old Barron Trump had coronavirus but exhibited no symptoms and has since tested negative.</p></div>
+            <div class="lan1"><img src="https://www.aljazeera.com/wp-content/uploads/2020/10/2020-09-17T080026Z_602695995_RC280J9LQI3T_RTRMADP_3_ALGERIA-POLITICS-PLAYERS.jpg?resize=570%2C380" class="article2"/><p class="two"><a href="">In Algeria, a new constitution protesters did not call for
+                    </a></p><p class="twosec">Critics say the new constitution does not meet popular demands for an independent judiciary and empowered parliament.</p></div>      
+        <div class="lan1"><img src="https://www.aljazeera.com/wp-content/uploads/2020/10/AJE-USS-Barry-in-Taiwan-strait.jpg?resize=570%2C380" class="article2"/><p class="two"><a href="">China says US undermines peace after ship sails through strait
+                </a></p><p class="twosec">The destroyer USS Barry sailed through the Taiwan Strait on Wednesday in what the US Navy said was a ‘routine transit’.</p></div>
+
+        <div class="lan12"><img src="https://www.aljazeera.com/wp-content/uploads/2020/10/outside.jpg?resize=770%2C513" class="article22"/><p class="two2"><a href="">Graphic Novel: Motherhood in crisis
+                </a></p><p class="twosec2">     Four women share their stories of hardship and survival in Sierra Leone, where falling pregnant can mean risking death.</p></div>
+        
+        <div class="lan1"><img src="https://www.aljazeera.com/wp-content/uploads/2020/10/2019-09-09T115647Z_892425372_RC13159EFD90_RTRMADP_3_IRAN-NUCLEAR-IAEA.jpg?resize=570%2C380" class="article2"/><p class="two"><a href="">Spain extradites former banker sentenced in Iran for corruption
+                </a></p><p class="twosec">Alireza Heydar Abadipour, former CEO of Sarmayeh Bank, had been sentenced in absentia on fraud and embezzlement charges.</p></div>
+        <div class="lan1"><img src="https://www.aljazeera.com/wp-content/uploads/2020/10/2020-10-13T215047Z_30904518_RC2XHJ9D5BEP_RTRMADP_3_HEALTH-CORONAVIRUS-BANGLADESH-PROTEST.jpg?resize=570%2C380" class="article2"/><p class="two"><a href="">Bangladesh sentences five men to death for 2012 gang rape of teen
+               </a></p><p class="twosec"> Court order comes days after government introduced death penalty for rape amid growing anger over sexual violence.</p></div>
+        <div class="lan1"><img src="https://www.aljazeera.com/wp-content/uploads/2017/07/dfd293d0fd924c0a81be7319f4991e5c_18.jpeg?resize=570%2C380" class="article2"/><p class="two"><a href="">Death of a woman in Cairo suburb sparks anger in Egypt
+                </a></p><p class="twosec">The incident sparked anger across Egypt after it was initially reported by several media outlets as a sex crime.</p></div>
+        <div class="lan1"><img src="https://www.aljazeera.com/wp-content/uploads/2020/10/000_8RU3ZE.jpg?resize=570%2C380" class="article2"/><p class="two"><a href="">From prison to PM: Kyrgyzstan’s Sadyr Japarov
+                </a></p><p class="twosec">Japarov, a nationalist who wants to share Kyrgyzstan’s gold wealth with the public, was freed by protesters amid unrest.</p></div>
+        <div class="lan1"><img src="https://www.aljazeera.com/wp-content/uploads/2020/10/2020-02-26T031831Z_1249867114_RC238F9GB4FS_RTRMADP_3_COLOMBIA-PEACE.jpg?resize=570%2C380" class="article2"/><p class="two"><a href="">UN envoy says ex-FARC fighters in Colombia being killed
+                </a></p><p class="twosec">At least 19 former combatants from the leftist group have been killed in past three months, UN says.</p></div>
+        <div class="lan1"><img src="https://www.aljazeera.com/wp-content/uploads/2020/10/000_1UC8JO.jpg?resize=570%2C380" class="article2"/><p class="two"><a href="">WHO fears more tuberculosis deaths as COVID-19 pandemic continues
+               </a></p><p class="twosec"></p> ‘Significant reductions’ seen in health interventions of TB patients as a result of lockdowns imposed due to COVID-19.</div>
+        <div class="lan1"><img src="https://www.aljazeera.com/wp-content/uploads/2020/10/365297894.jpg?resize=570%2C380" class="article2"/><p class="two"><a href="">Fading US stimulus hopes, rising virus cases hit global shares
+               </a></p><p class="twosec"> US Treasury Secretary Steven Mnuchin said a fiscal stimulus deal with rival Democrats is unlikely before elections.</p></div>
+        <div class="lan1"><img src="https://www.aljazeera.com/wp-content/uploads/2020/10/000_1NO56S.jpg?resize=570%2C380" class="article2"/><p class="two"><a href="">Two Americans, 240 Yemen rebel backers freed in apparent swap
+                </a></p><p class="twosec">US national security adviser thanks Saudi king and Omani sultan for efforts in securing release of its citizens.</p></div>
+        <div class="lan1"><img src="https://www.aljazeera.com/wp-content/uploads/2020/10/365291284.jpg?resize=570%2C380" class="article2"/><p class="two"><a href="">‘Oppressive and dangerous’: Amazon workers take company to court
+                </a></p><p class="twosec">Employees at Amazon warehouse in New York say firm reinstated output quotas despite the ongoing coronavirus pandemic.</p></div>
+                <div class="lan1"><img src="https://www.aljazeera.com/wp-content/uploads/2020/10/AP_20148026009864.jpg?resize=570%2C380" class="article2"/><p class="two"><a href="">White woman charged in racist NYC run-in made a second 911 call
+                    </a></p><p class="twosec">In the first 911 call, Amy Cooper told a dispatcher that a birdwatcher named Christian Cooper was threatening her.</p></div>
+            <div class="lan1"><img src="https://www.aljazeera.com/wp-content/uploads/2020/09/9306c9adbc454b2ab95229bd91244395_18.jpeg?resize=570%2C380" class="article2"/><p class="two"><a href="">Police gave no warning in Antifa activist shooting: Witnesses</a></p><p class="twosec"> US Marshals task force did not identify themselves before killing Michael Reinoehl in Washington, witnesses say.</p></div>
+            <div class="lan1"><img src="https://www.aljazeera.com/wp-content/uploads/2020/10/bezosbluemoon.jpg?resize=570%2C380" class="article2"/><p class="two"><a href="">Three, two, one liftoff: Bezos space firm tests new lunar landing
+                </a></p><p class="twosec"> Blue Origin, launching a New Shepard rocket for a seventh time, could help put astronauts back on the moon.</p></div>
+        </div>
+        <div id = "video2" class="lane7">
+                <video src="" poster="https://www.aljazeera.com/wp-content/uploads/2020/10/image-43.jpg?resize=730%2C410" preload="auto" controls loop ></video>
+        <div class="vidlan"><p class="from"><span>From:  </span>The Bottom Line
+            
+           </p><p class="vidtwo"><a href="">Despite the polls, can Trump win a second term?</a></p><p class="vidsec"> Are Americans still enamoured of Trump’s craving for attention and upsetting the status quo?</p></div>
+
+            </div>
+        <div class="lane8">
+                <div class="lan1"><img src="https://www.aljazeera.com/wp-content/uploads/2020/10/2018-10-14T153646Z_236510940_RC133C9E9C10_RTRMADP_3_FRANCE-SOUTHKOREA.jpg?resize=570%2C380" class="article2"/><p class="two"><a href="">K-pop band BTS’ label, Big Hit, is a smash with Korean investors
+                        </a></p><p class="twosec"></p>Shares of Big Hit Entertainment surge on South Korean market debut, as company uses social media to boost audiences.</div>
+                <div class="lan1"><img src="https://www.aljazeera.com/wp-content/uploads/2020/10/wisconsin-.jpg?resize=570%2C380" class="article2"/><p class="two"><a href="">Judge blocks US state’s indoor capacity limits amid COVID surge
+                        </a></p><p class="twosec">COVID-19 is surging in Wisconsin, but a judge temporarily blocked the governor’s order to limit indoor dining capacity.</p></div>
+                <div class="lan1"><img src="https://www.aljazeera.com/wp-content/uploads/2020/10/000_8T28EK.jpg?resize=570%2C380" class="article2"/><p class="two"><a href="">Many dead as record rains lash India’s Hyderabad and nearby areas
+                       </a></p><p class="twosec"> At least 16 killed in southern India as rains cause widespread flooding in Hyderabad city, home to major IT companies.</p></div>
+             <div class="lan1"><img src="https://www.aljazeera.com/wp-content/uploads/2020/10/000_8T72MW.jpg?resize=570%2C380" class="article2"/><p class="two"><a href="">Syria Kurds free more than 600 ISIL fighters as part of amnesty
+                        </a></p><p class="twosec">Released fighters ‘have no blood on their hands’ and have all repented joining ISIL, Syrian Democratic Council says.</p></div>
+
+        </div>
+    </div>
+</div>
+<div class="wrapper">  
+    <div id = "video3" class="lane9">
+            <video id="video" src="" poster="https://www.aljazeera.com/wp-content/uploads/2020/10/image-42.jpg?resize=730%2C410" preload="auto" controls loop ></video>
+        <div class="vidlan"><p class="from"><span>From:  </span>NewsFeed
+           
+          </p><p class="vidtwo"><a href=" ">Nigerians demand police reform after SARS dissolution</a></p><p class="vidsec">  Protests against police violence in Nigeria continue under #EndSWAT, a new unit created after the dissolution of SARS.</p></div>
+
+        </div>
+    <div class="lane10">
+        <div class="lan1"><img src="https://www.aljazeera.com/wp-content/uploads/2020/10/Screenshot-2020-10-15-at-13.08.46-1.jpg?resize=270%2C180" class="article2"/><p class="two"><a href="">Cypriot parliament speaker quits after passport scheme scandal
+                </a></p><p class="twosec">Demetris Syllouris was one of two politicians implicated in Al Jazeera’s investigation into a passports-for-sale scheme.</p></div>
+        <div class="lan1"><img src="https://www.aljazeera.com/wp-content/uploads/2020/08/33600213e1b3479c91cb53c446808e62_18.jpeg?resize=570%2C380" class="article2"/><p class="two"><a href="">Trump mulls adding China’s Ant Group to trade blacklist: Report
+                </a></p><p class="twosec">China hardliners in the Trump administration are seeking to send a message deterring US investors from Ant Group’s IPO.</p></div>
+        <div class="lan1"><img src="https://www.aljazeera.com/wp-content/uploads/2020/09/AP_20211287643615.jpg?resize=570%2C380" class="article2"/><p class="two"><a href="">Iran slams new allegations against arrested diplomat in Belgium
+                </a></p><p class="twosec">Iran says new ‘fabrications’ by Belgian authorities are politically motivated.</p></div>
+        <div class="lan1"><img src="https://www.aljazeera.com/wp-content/uploads/2020/08/a92c647ccef34b0582fa955910ab3411_18.jpeg?resize=570%2C380" class="article2"/><p class="two"><a href="">Hong Kong protests: US warns banks they could face sanctions
+                </a></p><p class="twosec">The US told banks they could face sanctions for doing business with individuals involved in the crackdown on Hong Kong.</p></div>
+        <div class="lan1"><img src="https://www.aljazeera.com/wp-content/uploads/2020/03/bbc468ce0d194d689bfa9754bcc8f138_18.jpeg?resize=570%2C380" class="article2"/><p class="two"><a href="">Womenomics: Firms with female execs perform better, study finds
+                </a></p><p class="twosec">Europe is beating the US when it comes to gender equity in the workforce, which an analysis shows also boosts business.</p></div>
+        <div class="lan1"><img src="https://www.aljazeera.com/wp-content/uploads/2020/10/337032350.jpg?resize=570%2C380" class="article2"/><p class="two"><a href="">Sudan: Annual inflation tops 200% in Sept as food prices soar
+               </a></p><p class="twosec"> Annual inflation soared to a record 212.29 percent last month on surging food and transport prices.</p></div>
+        <div class="lan1"><img src="https://www.aljazeera.com/wp-content/uploads/2020/10/000_8RE9MK.jpg?resize=570%2C380" class="article2"/><p class="two"><a href="">Premier League clubs reject ‘Project Big Picture’
+               </a></p><p class="twosec"> Controversial proposals would have empowered biggest clubs, in exchange for rescue package and more revenue for the EFL.</p></div>
+        <div class="lan1"><img src="https://www.aljazeera.com/wp-content/uploads/2020/10/000_8RZ38T.jpg?resize=570%2C380" class="article2"/><p class="two"><a href="">Timeline: A year of bloody protests in Guinea
+        </a></p><p class="twosec">        After a decade in power, President Alpha Conde’s bid for a third term has sparked a year of harshly repressed protests.</p></div>
+        <div class="lan1"><img src="https://www.aljazeera.com/wp-content/uploads/2020/10/000_8RN4ZP.jpg?resize=570%2C380" class="article2"/><p class="two"><a href="">Greek neo-Nazi chief sentenced to 13 years in prison
+            </a></p><p class="twosec">Golden Dawn leader among members and sympathisers of fascist party handed jail sentences following landmark trial.</p></div>
+     <div class="lan1"><img src="https://www.aljazeera.com/wp-content/uploads/2020/10/unitedair-1.jpg?resize=570%2C380" class="article2"/><p class="two"><a href="">Nosedive: United Airlines revenue drops 78 percent in Q3
+             </a></p><p class="twosec"> The staggering figure is still better than United Airlines’ second-quarter plunge of 87 percent.</p></div>
+     <div class="lan1"><img src="https://www.aljazeera.com/wp-content/uploads/2020/10/Credit-Kelly-Drummer-MIGIZI.jpg?resize=570%2C380" class="article2"/><p class="two"><a href="">US business owners of colour rebuild with resilience after unrest
+             </a></p><p class="twosec">Business owners of colour were hit hard by looting, but many are rebuilding in a way that strengthens their communities.</p></div>
+     <div class="lan1"><img src="https://www.aljazeera.com/wp-content/uploads/2020/10/AP_20288502058955.jpg?resize=570%2C380" class="article2"/><p class="two"><a href="">Pompeo urges Saudi Arabia to normalise ties with Israel
+             </a></p><p class="twosec">The US is encouraging more Gulf countries to strike similar accords with Israel, following UAE and Bahrain agreements.</p></div>
+     <div class="lan1"><img src="https://www.aljazeera.com/wp-content/uploads/2020/10/2020-10-14T235246Z_2095555531_RC2NIJ9LLJQN_RTRMADP_3_USA-ELECTION-TRUMP.jpg?resize=570%2C380" class="article2"/><p class="two"><a href="">
+             Trump takes aim at Twitter, Facebook: US election news</a></p><p class="twosec"> Trump says the social media giants took down disputed posts about Biden in order “to protect” the Democrat.</p></div>
+        <div class="lan1"><img src="https://www.aljazeera.com/wp-content/uploads/2020/04/7acc3dd2954140ec9f0f0c3d0c6b1907_18.jpeg?resize=270%2C180" class="article2"/><p class="two"><a href="">Israel approves first West Bank settler homes since Gulf deals
+               </a></p><p class="twosec"> More than 2,000 Israeli settlement units have been approved for construction in occupied West Bank.</p></div>
+        <div class="lan1"><img src="https://www.aljazeera.com/wp-content/uploads/2020/10/000_8R97V9.jpg?resize=270%2C180" class="article2"/><p class="two"><a href="">Lebanon, Israel launch talks over maritime border dispute
+               </a></p><p class="twosec"> Short session held on Wednesday, with state media reporting second round to take place on October 28.</p></div>
+        <div class="lan1"><img src="https://www.aljazeera.com/wp-content/uploads/2020/10/000_1B89PT.jpg?resize=270%2C180" class="article2"/><p class="two"><a href="">Saudi Arabia fails in bid for seat on UN Human Rights Council
+               </a></p><p class="twosec"> China, Russia and Cuba win seats as analysts question whether human rights violators should be elected to the council.</p></div>
+        <div class="lan1"><img src="https://www.aljazeera.com/wp-content/uploads/2020/02/50985b3689964d3bb7b2778a8be2b95c_18.jpeg?resize=270%2C180" class="article2"/><p class="two"><a href="">‘God help us’ if Trump wins re-election, Palestinian PM says
+               </a></p><p class="twosec"> Prime Minister Mohammad Shtayyeh says it will be disastrous for his people and the world US president is re-elected.</p></div>
+        <div class="lan1"><img src="https://www.aljazeera.com/wp-content/uploads/2019/07/08d0dd39d7304af4917dd84cb2cef6b6_18.jpeg?resize=270%2C180" class="article2"/><p class="two"><a href="">Somali soldiers killed in al-Shabab attack near Mogadishu
+               </a></p><p class="twosec"> Somali military says 13 of its soldiers killed in al-Shabab attack northwest of the capital Mogadishu.</p></div>
+        <div class="lan1"><img src="https://www.aljazeera.com/wp-content/uploads/2020/10/2020-09-22T050233Z_927825758_RC2H3J9FMST6_RTRMADP_3_CHINA-RIGHTS-TIBET.jpg?resize=570%2C380" class="article2"/><p class="two"><a href="">China slams US appointment of special coordinator for Tibet
+              </a></p><p class="twosec">  Beijing says appointment of US human rights official infringes on China’s internal affairs and may ‘destabilise’ Tibet.</p></div>
+        <div class="lan1"><img src="https://www.aljazeera.com/wp-content/uploads/2020/10/RTX7ZZT2.jpg?resize=270%2C180" class="article2"/><p class="two"><a href="">Liverpool, Man Utd lick wounds after humiliating defeats
+                </a></p><p class="twosec">The defending champions let in seven goals against Villa while United was beaten 6-1 by Tottenham.</p></div>
+       
+
+                
+    </div>
+ </div>
+
+<aside><div class="ado">Advertisement</div> </aside></article>
+</div>
+<footer>
+    <div class="foot1">
+        <ul class="foot">
+            <li class="fot">About</li>
+            <li><a href="">About Us</a></li>
+            <li><a href="">Code of Ethics</a></li>
+            <li><a href="">Terms and Conditions</a></li>
+            <li><a href="">Privacy Policy</a></li>
+            <li><a href="">Cookie Policy</a></li>
+            <li><a href="">Cookie Preferences</a></li>
+            <li><a href="">Community Guidelines</a></li>
+            <li><a href="">Work for us</a></li>
+            <li><a href="">HR Quality</a></li>
+        </ul>
+    </div>
+    <div class="foot2">
+            <ul class="foot">
+                <li class="fot">Connect</li>
+                <li><a href="">Contact Us</a></li>
+                <li><a href="">Apps</a></li>
+                <li><a href="">Channel Finder</a></li>
+                <li><a href="">TV Schedule</a></li>
+                <li><a href="">Podcasts</a></li>
+                <li><a href="">Submite a Tip</a></li>
+
+            </ul>
+        </div>
+        <div class="foot3">
+                <ul class="foot">
+                    <li class="fot">Our Channels</li>
+                    <li><a href="">Al Jazeera Arabic</a></li>
+                    <li><a href="">Al Jazeera English</a></li>
+                    <li><a href="">Al Jazeera Mubasher</a></li>
+                    <li><a href="">Al Jazeera Documentary</a></li>
+                    <li><a href="">Al Jazeera Balknas</a></li>
+                    <li><a href="">AJ+</a></li>
+
+                </ul>
+            </div>
+            <div class="foot4">
+                    <ul class="foot">
+                        <li class="fot">Our Network</li>
+                        <li><a href="">Al Jazeera Centre for Studies</a></li>
+                        <li><a href="">Al Jazeera Media Institute</a></li>
+                        <li><a href="">Learn Arabic</a></li>
+                        <li><a href="">Al Jazeera Centre for Public Liberties & Human Rights</a></li>
+                        <li><a href="">Al Jazeera Forum</a></li>
+                        <li><a href="">Al Jazeera Hotel Partners</a></li>
+
+                    </ul>
+                </div>
+                <div class="foot5">
+                        <ul class="foot">
+                            <li class="last">Follow Al Jazeera English:</li>
+ 
+                        </ul>
+                        <div class="socialmedia"> 
+                            <div class="media" ><img src="data:image/png;base64,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"></div>
+                            <div class="media" ><img src="data:image/png;base64,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"></div>
+                            <div class="media" ><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAdVBMVEUAAAD///96enrQ0NDT09PPz8/w8PB0dHSysrJ2dna2trb4+Pi5ubkdHR1MTEzJycnl5eXd3d1sbGwzMzPDw8MmJiZdXV2Hh4cUFBSBgYGbm5tAQECVlZUrKyukpKRFRUU6OjqqqqoNDQ0ZGRlnZ2dWVlZgYGDBb4sMAAAETklEQVR4nO2c63aqMBBGU4uoKIigoEi91fb9H/GA2NYL9CzDFzN0fftnb7q7MJnMTEYpQgghhBBCCCGEEEIIIYQQQgghhBBCCCGEEEIIIYQQQkgdS3/xFq+D5NhL881+OBx63mQymc+n037B6wnngtMXym9Np/N58ZOeV/zOfpOnvWMSrOO3hb+0rVRIxUESrTKv78xC131BM3bDmdP3slWUBPGTdf0onzhh6I7hVr/Yhs4kjxZP8VvNniZ2zyw17pdZ1KvYHEz6DfAft8dxe+YE97blzgxNCb7aNvtmZkZwatvrglcTgp5tqyvmeMHIttMN8OXmYNvoDvTuP7EtdMcUKxjb9qlhDTUc2tapAbvYSIhlbnF9oOCHbZtajkDDvW2ZWiZAQ8e2TC3I2O15Z92HwJ38Je4VJQHMcGVbpYEcZihxNyzBLTWSzk2XODBDift9yRhmaNukEZSg1KX05WULMkx038DG9Ac4AhlqbxYj9WE2fYzKD+e6b6DMNCQmHVEbonaeu8qljEKk1BV7kKH2hv+VLeqZ2m5QW772evGTD0vNxO6oLV/7KbvM+OUmHF2QofYzdpXTPGzwjrIMlfI3SLuSMabS9q79v7/LS7+DSwPjN4jhAmdYRIBzqGEMMYyRhkptkY6YrPBa+/UbqidbXGILE3oHaMPiT6JCuQ+IoX46+JcK2BHjmEAMP00YKjVAhKuYtLd+bfQ/VUxAuIo5IBozLMLVto4Yw4E5w9bh6kC+oVq26rLqgqFqVdnqiKFaaJ+xu2Ko1E6zE6I7hoWjVrg66pBhEf/2bRmOnmRYxIcP9wZ2zTB4+NDRLUOdQ1WXDPUOxt0xXGse/LuylvraCapu7Id+izaBLhi2S6J2wLBlIly8YetihnBDQEFKtOEKkYnCGBrJ00AybYIzUUdU4RtjCM+XfuKaFz4hhuCcd4Jsx8Vk9aF1izX2ehimw3Sr/fp3hmt0kxSmurZD1Q91003NjHcQQ1CFdGHgYpGkKvdhDxT7Zgy6VNK+FwPfhVEhpdtkmZm6zYAybNkTZaQbqiIEGWpvYaWhoY62ij7IUHsRHKiV2SZ4D2SovUx4pgdMbECG2j3CxkH1CKe2RRpB9XkfbYs0grpjqd/2ZZodyPDv35mResESFtJIGmpyDWrDlzb04wfUhi93u8ANjZK6mOLmRsgbbFIBnIllc4BZM8j7+DKvOiMHYumnvU2CSXhXLCXedXahwxTljRjCDv5Qamdbp4Yd1FBBL/NAQM8z820L3fEONlQ920Y3YLqhrpD1nGKXmTMaDa7GwJ2brpATu+GGmtwgJXhDXcOvYSQhtnExTTRNGCqTPUBm1K8k/eOzoEsWf3ye9zdXM9nxtjZnstfqnufqR700q8bqe+VY/fNc/f7tWH3na6z+aa7+vJyrfxqsn6W9SM5cfUIIIYQQQgghhBBCCCGEEEIIIYQQQgghhBBCCCGEEEJE8g9ShVzGihgOCwAAAABJRU5ErkJggg=="></div>
+                           <div class="media" ><img src="data:image/png;base64,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"/></div>
+                            <div class="media" ><img class="med" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ4BG1eMelHg6HnZUziUvxd9j_jIFAfHpgBEQ&usqp=CAU"></div>
+                        </div>
+                        <div class="aljazet"><img src="https://www.aljazeera.com/static/media/footer-icon--white.9c8198f5.svg" class="aljazet"/></div>
+                        <div class="copy">&copy: 2020 Al Jazeera Media Network</div>
+                    </div>
+</footer>
+</body>
+</html>
